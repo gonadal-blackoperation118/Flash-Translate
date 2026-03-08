@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000000 /* FlashTranslateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000000 /* FlashTranslateApp.swift */; };
+		A10000020000000000000000 /* AppBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000120000000000000000 /* AppBootstrap.swift */; };
+		A10000030000000000000000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000130000000000000000 /* AppDelegate.swift */; };
+		A10000040000000000000000 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000140000000000000000 /* AppState.swift */; };
+		A10000050000000000000000 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000150000000000000000 /* AppSettings.swift */; };
+		A10000060000000000000000 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000160000000000000000 /* SettingsStore.swift */; };
+		A10000070000000000000000 /* TextCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000170000000000000000 /* TextCaptureService.swift */; };
+		A10000080000000000000000 /* SelectionCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000180000000000000000 /* SelectionCaptureService.swift */; };
+		A10000090000000000000000 /* PasteboardCaptureFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000190000000000000000 /* PasteboardCaptureFallback.swift */; };
+		A100000A0000000000000000 /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001A0000000000000000 /* HotkeyManager.swift */; };
+		A100000B0000000000000000 /* DoubleCommandDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001B0000000000000000 /* DoubleCommandDetector.swift */; };
+		A100000C0000000000000000 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001C0000000000000000 /* HTTPClient.swift */; };
+		A100000D0000000000000000 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001D0000000000000000 /* PermissionManager.swift */; };
+		A100000E0000000000000000 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001E0000000000000000 /* TranslationService.swift */; };
+		A100000F0000000000000000 /* GoogleTranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F0000000000000000 /* GoogleTranslateService.swift */; };
+		A10000100000000000000000 /* OpenAICompatibleTranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000200000000000000000 /* OpenAICompatibleTranslateService.swift */; };
+		A10000210000000000000000 /* LanguageDirectionResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000210000000000000001 /* LanguageDirectionResolver.swift */; };
+		A10000220000000000000000 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000220000000000000001 /* MenuBarController.swift */; };
+		A10000230000000000000000 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000230000000000000001 /* SettingsView.swift */; };
+		A10000240000000000000000 /* TranslationPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000240000000000000001 /* TranslationPopoverView.swift */; };
+		A10000250000000000000000 /* LanguageDirectionResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000250000000000000001 /* LanguageDirectionResolverTests.swift */; };
+		A10000260000000000000000 /* SettingsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000260000000000000001 /* SettingsStoreTests.swift */; };
+		A10000270000000000000000 /* OpenAICompatibleTranslateServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000270000000000000001 /* OpenAICompatibleTranslateServiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000A00000000000000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10001000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10002000000000000000000;
+			remoteInfo = FlashTranslate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10000110000000000000000 /* FlashTranslateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashTranslateApp.swift; sourceTree = SOURCE_ROOT; };
+		A10000120000000000000000 /* AppBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AppBootstrap.swift; sourceTree = SOURCE_ROOT; };
+		A10000130000000000000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		A10000140000000000000000 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/AppState.swift; sourceTree = SOURCE_ROOT; };
+		A10000150000000000000000 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Config/AppSettings.swift; sourceTree = SOURCE_ROOT; };
+		A10000160000000000000000 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Config/SettingsStore.swift; sourceTree = SOURCE_ROOT; };
+		A10000170000000000000000 /* TextCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Capture/TextCaptureService.swift; sourceTree = SOURCE_ROOT; };
+		A10000180000000000000000 /* SelectionCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Capture/SelectionCaptureService.swift; sourceTree = SOURCE_ROOT; };
+		A10000190000000000000000 /* PasteboardCaptureFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Capture/PasteboardCaptureFallback.swift; sourceTree = SOURCE_ROOT; };
+		A100001A0000000000000000 /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Hotkey/HotkeyManager.swift; sourceTree = SOURCE_ROOT; };
+		A100001B0000000000000000 /* DoubleCommandDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Hotkey/DoubleCommandDetector.swift; sourceTree = SOURCE_ROOT; };
+		A100001C0000000000000000 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Network/HTTPClient.swift; sourceTree = SOURCE_ROOT; };
+		A100001D0000000000000000 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Permissions/PermissionManager.swift; sourceTree = SOURCE_ROOT; };
+		A100001E0000000000000000 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Translation/TranslationService.swift; sourceTree = SOURCE_ROOT; };
+		A100001F0000000000000000 /* GoogleTranslateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Translation/GoogleTranslateService.swift; sourceTree = SOURCE_ROOT; };
+		A10000200000000000000000 /* OpenAICompatibleTranslateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Translation/OpenAICompatibleTranslateService.swift; sourceTree = SOURCE_ROOT; };
+		A10000210000000000000001 /* LanguageDirectionResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Translation/LanguageDirectionResolver.swift; sourceTree = SOURCE_ROOT; };
+		A10000220000000000000001 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/UI/MenuBarController.swift; sourceTree = SOURCE_ROOT; };
+		A10000230000000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/UI/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		A10000240000000000000001 /* TranslationPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/UI/TranslationPopoverView.swift; sourceTree = SOURCE_ROOT; };
+		A10000250000000000000001 /* LanguageDirectionResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/LanguageDirectionResolverTests.swift; sourceTree = SOURCE_ROOT; };
+		A10000260000000000000001 /* SettingsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/SettingsStoreTests.swift; sourceTree = SOURCE_ROOT; };
+		A10000270000000000000001 /* OpenAICompatibleTranslateServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/OpenAICompatibleTranslateServiceTests.swift; sourceTree = SOURCE_ROOT; };
+		A10000280000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		A10000290000000000000000 /* FlashTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100002A0000000000000000 /* FlashTranslateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashTranslateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10003000000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10003010000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10004000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				A10004010000000000000000 /* FlashTranslate */,
+				A10004020000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10004010000000000000000 /* FlashTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000000 /* FlashTranslateApp.swift */,
+				A10000280000000000000000 /* Info.plist */,
+				A10004030000000000000000 /* Sources */,
+				A100040A0000000000000000 /* Tests */,
+			);
+			path = FlashTranslate;
+			sourceTree = "<group>";
+		};
+		A10004020000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000290000000000000000 /* FlashTranslate.app */,
+				A100002A0000000000000000 /* FlashTranslateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10004030000000000000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A10004040000000000000000 /* Config */,
+				A10004050000000000000000 /* Capture */,
+				A10004060000000000000000 /* Hotkey */,
+				A10004070000000000000000 /* Network */,
+				A10004080000000000000000 /* Permissions */,
+				A10004090000000000000000 /* Translation */,
+				A100040B0000000000000000 /* UI */,
+				A10000120000000000000000 /* AppBootstrap.swift */,
+				A10000130000000000000000 /* AppDelegate.swift */,
+				A10000140000000000000000 /* AppState.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A10004040000000000000000 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A10000150000000000000000 /* AppSettings.swift */,
+				A10000160000000000000000 /* SettingsStore.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A10004050000000000000000 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				A10000170000000000000000 /* TextCaptureService.swift */,
+				A10000180000000000000000 /* SelectionCaptureService.swift */,
+				A10000190000000000000000 /* PasteboardCaptureFallback.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		A10004060000000000000000 /* Hotkey */ = {
+			isa = PBXGroup;
+			children = (
+				A100001A0000000000000000 /* HotkeyManager.swift */,
+				A100001B0000000000000000 /* DoubleCommandDetector.swift */,
+			);
+			path = Hotkey;
+			sourceTree = "<group>";
+		};
+		A10004070000000000000000 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A100001C0000000000000000 /* HTTPClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A10004080000000000000000 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				A100001D0000000000000000 /* PermissionManager.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		A10004090000000000000000 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				A100001E0000000000000000 /* TranslationService.swift */,
+				A100001F0000000000000000 /* GoogleTranslateService.swift */,
+				A10000200000000000000000 /* OpenAICompatibleTranslateService.swift */,
+				A10000210000000000000001 /* LanguageDirectionResolver.swift */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		A100040A0000000000000000 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A10000250000000000000001 /* LanguageDirectionResolverTests.swift */,
+				A10000260000000000000001 /* SettingsStoreTests.swift */,
+				A10000270000000000000001 /* OpenAICompatibleTranslateServiceTests.swift */,
+			);
+			path = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		A100040B0000000000000000 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A10000220000000000000001 /* MenuBarController.swift */,
+				A10000230000000000000001 /* SettingsView.swift */,
+				A10000240000000000000001 /* TranslationPopoverView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10002000000000000000000 /* FlashTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10005000000000000000000 /* Build configuration list for PBXNativeTarget "FlashTranslate" */;
+			buildPhases = (
+				A10006000000000000000000 /* Sources */,
+				A10003000000000000000000 /* Frameworks */,
+				A10006010000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashTranslate;
+			productName = FlashTranslate;
+			productReference = A10000290000000000000000 /* FlashTranslate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10002010000000000000000 /* FlashTranslateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10005010000000000000000 /* Build configuration list for PBXNativeTarget "FlashTranslateTests" */;
+			buildPhases = (
+				A10006020000000000000000 /* Sources */,
+				A10003010000000000000000 /* Frameworks */,
+				A10006030000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10007000000000000000000 /* PBXTargetDependency */,
+			);
+			name = FlashTranslateTests;
+			productName = FlashTranslateTests;
+			productReference = A100002A0000000000000000 /* FlashTranslateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10001000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10002000000000000000000 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A10002010000000000000000 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A10002000000000000000000;
+					};
+				};
+			};
+			buildConfigurationList = A10005020000000000000000 /* Build configuration list for PBXProject "FlashTranslate" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10004000000000000000000;
+			productRefGroup = A10004020000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10002000000000000000000 /* FlashTranslate */,
+				A10002010000000000000000 /* FlashTranslateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10006010000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10006030000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10006000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000000 /* FlashTranslateApp.swift in Sources */,
+				A10000020000000000000000 /* AppBootstrap.swift in Sources */,
+				A10000030000000000000000 /* AppDelegate.swift in Sources */,
+				A10000040000000000000000 /* AppState.swift in Sources */,
+				A10000050000000000000000 /* AppSettings.swift in Sources */,
+				A10000060000000000000000 /* SettingsStore.swift in Sources */,
+				A10000070000000000000000 /* TextCaptureService.swift in Sources */,
+				A10000080000000000000000 /* SelectionCaptureService.swift in Sources */,
+				A10000090000000000000000 /* PasteboardCaptureFallback.swift in Sources */,
+				A100000A0000000000000000 /* HotkeyManager.swift in Sources */,
+				A100000B0000000000000000 /* DoubleCommandDetector.swift in Sources */,
+				A100000C0000000000000000 /* HTTPClient.swift in Sources */,
+				A100000D0000000000000000 /* PermissionManager.swift in Sources */,
+				A100000E0000000000000000 /* TranslationService.swift in Sources */,
+				A100000F0000000000000000 /* GoogleTranslateService.swift in Sources */,
+				A10000100000000000000000 /* OpenAICompatibleTranslateService.swift in Sources */,
+				A10000210000000000000000 /* LanguageDirectionResolver.swift in Sources */,
+				A10000220000000000000000 /* MenuBarController.swift in Sources */,
+				A10000230000000000000000 /* SettingsView.swift in Sources */,
+				A10000240000000000000000 /* TranslationPopoverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10006020000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000250000000000000000 /* LanguageDirectionResolverTests.swift in Sources */,
+				A10000260000000000000000 /* SettingsStoreTests.swift in Sources */,
+				A10000270000000000000000 /* OpenAICompatibleTranslateServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10007000000000000000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10002000000000000000000 /* FlashTranslate */;
+			targetProxy = A10000A00000000000000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10008000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10008010000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A10008020000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.flashtranslate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10008030000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.flashtranslate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10008040000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.flashtranslate.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashTranslate.app/Contents/MacOS/FlashTranslate";
+				TEST_TARGET_NAME = FlashTranslate;
+			};
+			name = Debug;
+		};
+		A10008050000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.flashtranslate.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashTranslate.app/Contents/MacOS/FlashTranslate";
+				TEST_TARGET_NAME = FlashTranslate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10005000000000000000000 /* Build configuration list for PBXNativeTarget "FlashTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10008020000000000000000 /* Debug */,
+				A10008030000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10005010000000000000000 /* Build configuration list for PBXNativeTarget "FlashTranslateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10008040000000000000000 /* Debug */,
+				A10008050000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10005020000000000000000 /* Build configuration list for PBXProject "FlashTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10008000000000000000000 /* Debug */,
+				A10008010000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10001000000000000000000 /* Project object */;
+}
